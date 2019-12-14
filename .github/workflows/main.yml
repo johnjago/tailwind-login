@@ -1,5 +1,4 @@
-name: github pages
-
+name: Build CSS
 on:
   push:
     branches:
@@ -24,7 +23,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - run: npx tailwind build style.css -o output.css -c tailwind.config.js
+    - run: npm i && npx tailwind build style.css -o output.css -c tailwind.config.js
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
