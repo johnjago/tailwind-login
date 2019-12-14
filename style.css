@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.input {
+  @apply border-2 border-gray-400 bg-white text-gray-900 appearance-none inline-block w-full rounded-sm py-3 px-4 mb-5;
+}
+
+.input::placeholder {
+  @apply text-gray-900;
+}
+
+.clear-half-button {
+  @apply w-1/2 text-gray-700 font-medium text-center border border-gray-400 rounded-sm p-3;
+}
+
+.clear-half-button:hover {
+  @apply bg-gray-300;
+}

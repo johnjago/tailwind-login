@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-login",
+  "version": "1.0.0",
+  "description": "Demo login page styled with Tailwind CSS",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnjago/tailwind-login.git"
+  },
+  "author": "John Jago",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/johnjago/tailwind-login/issues"
+  },
+  "homepage": "https://github.com/johnjago/tailwind-login#readme",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}
